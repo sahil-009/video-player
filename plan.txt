@@ -1,0 +1,78 @@
+Objective
+Build a mobile-first video player application with a seamless user experience similar to the
+YouTube mobile app. The focus should be on smooth playback, gesture-based interactions,
+clean UI, and high performance. (Note: Dataset on last page)
+1. Home Page – Video Feed
+●​ Layout: Display a scrollable list of videos grouped by category.
+●​ Video Cards: Each card must include:
+○​ Thumbnail
+○​ Title
+○​ Duration
+○​ Category badge
+●​ Interactions:
+○​ Clicking a video opens it in a full-page video player.
+○​ Implement smooth transitions between the list view and player view.
+●​ Tech Stack: Use any modern frontend framework (React, Vue, Svelte, etc.).
+2. Full-Page Video Player
+●​ Playback: Video should auto-play upon opening.
+●​ Custom Controls:
+○​ Play / Pause toggle.
+○​ Skip forward (+10 seconds) and backward (-10 seconds).
+○​ Seekable progress bar.
+○​ Current time / total duration display.
+●​ Responsiveness: Fully responsive for both mobile and desktop.
+●​ Format: Support MP4 videos (HLS support is a bonus).
+3. In-Player Video List
+While a video is playing, allow users to:
+●​ Reveal List: Swipe up or scroll down to reveal a related video list.
+●​ Filtering: Show only videos from the same category.
+●​ Selection: Clicking a video from the list should:
+○​ Switch playback to the selected video immediately.
+○​ Auto-play the new video.
+○​ Update the list if the category changes.
+●​ Experience: Ensure smooth scrolling and fluid animations.4. Drag-to-Minimize Video Player
+Implement a "Picture-in-App" experience:
+●​ Gestures: Allow users to drag the video player downward.
+●​ Docking: Video should shrink and dock into a bottom mini-player.
+●​ Mini-Player Features:
+○​ Small video preview (continues playing).
+○​ Video title.
+○​ Play / Pause control.
+○​ Close button.
+●​ Persistence: The mini-player should persist while the user browses the home page.
+●​ Restoration: Tapping the mini-player must restore it to full-screen mode.
+Bonus Challenges (Optional)
+●​ Auto-play Next: Automatically play the next video in the category when the current
+one ends (include a 2-second countdown with a cancel option).
+●​ Virtualization: Use virtual lists or infinite scrolling for large datasets.
+●​ PiP Support: Implement the official Browser Picture-in-Picture API.
+●​ Visual Feedback: Enhanced animations for the +10 / -10 skip buttons.
+Technical Expectations
+
+●​Design: Mobile-first responsive design.
+Performance: Smooth animations (aiming for 60fps).
+Interactions: Robust touch and gesture support.
+Code Quality: Clean, readable, and maintainable code.
+Styling: Any approach is welcome (Tailwind, CSS-in-JS, SASS).
+Architecture: State management and TypeScript are optional but highly encouraged.
+
+Design: Mobile-first responsive design.
+Performance: Smooth animations (aiming for 60fps).
+Interactions: Robust touch and gesture support.
+Code Quality: Clean, readable, and maintainable code.
+Styling: Any approach is welcome (Tailwind, CSS-in-JS, SASS).
+Architecture: State management and TypeScript are optional but highly encouraged.
+Submission Requirements
+Please provide the following:
+1.​ GitHub Repository: Public link to the source code.
+2.​ Live Demo: Deployed URL (e.g., Vercel, Netlify, Cloudflare).
+3.​ Documentation: A README file with setup instructions and a feature list.
+4.​ Demo Video: (Optional) A short screen recording of the app in action.Evaluation Criteria
+●​ Completeness: Are all core requirements, including the video feed and custom
+controls, fully implemented?
+●​ UI / UX Quality: Is the interface intuitive, visually polished, and consistent with
+modern mobile standards?
+●​ Code Structure & Clarity: Is the project organized logically, with clean, readable, and
+maintainable code?
+●​ Performance & Smoothness: Does the app feel "native," maintaining high frame rates
+during transitions and touch interactions?
