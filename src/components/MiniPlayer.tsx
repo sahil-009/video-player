@@ -40,7 +40,7 @@ export default function MiniPlayer({ video, onExpand, onClose }: MiniPlayerProps
           <video
             ref={videoRef}
             src={video.videoUrl}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
             muted
             playsInline
           />

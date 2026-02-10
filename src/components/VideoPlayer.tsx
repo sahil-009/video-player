@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion, useAnimation, PanInfo } from 'framer-motion'
 import {
-  Play, Pause, SkipBack, SkipForward, X, Minimize2,
-  ChevronUp, ChevronDown, MonitorPlay
+  Play, Pause, SkipBack, SkipForward, Minimize2,
+  ChevronUp, ChevronDown
 } from 'lucide-react'
 import { Video } from '../types'
 import { getVideosByCategory } from '../data/mockVideos'
